@@ -1,0 +1,164 @@
+/* *all Common Css Strat  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline:0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+  line-height: 1.2; 
+}
+body{
+  font-family:  "Inter", sans-serif;
+}
+.conteinar{
+  width: 1320px;
+  margin: 0 auto;
+}
+/* *all Common Css Strat  */
+
+/* *headerPart Start  */
+#headerPart{
+  /* background: #94a6ef; */
+  padding: 30px 0;
+}
+.headerFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul{
+  display: flex;
+}
+.menu ul li a{
+  padding: 0 25px;
+ font-weight: 400;
+ font-size: 18px;
+ color: #181818; 
+ transition: .4s;
+}
+.menu ul li:hover a{
+color: #5956E8; 
+}
+.btn a{
+  background: #5956E8;
+  border-radius: 10px;
+  padding: 18px 22px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* *headerPart End */
+
+/* *start HeroSectoin start */
+#heroSection{
+padding-top: 182px;
+padding-bottom: 185px;
+background-color: #5956E8;
+}
+.bannerFlex{
+  display: flex;
+  justify-content: space-between;
+}
+.bannerText{
+  width: 540px;
+  
+}
+
+.bannerText h1{
+  
+color:#ffffff ;
+font-size: 65px;
+font-weight: 700;
+line-height: 80px;
+padding-bottom: 32px;
+margin-top: 77px;
+}
+.bannerText p{ 
+color:#ffffff ;
+font-size: 16px;
+font-weight:200;
+line-height: 27px;
+}
+.bannerText .botton {
+  display: inline-block;
+  color: #5956E8;
+  background-color: #ffffff;
+  margin-top: 40px;
+  padding: 16px 35px;
+  border-radius: 10px;
+
+}
+
+
+
+.bannerCartoon{
+  width: 470px;
+}
+
+/* *start HeroSectoin End */
+
+/* *start servicePart */
+.serviceText{
+  width: 542px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 110px;
+}
+.serviceText h3{
+ font-size: 40px;
+ font-weight: 700;
+ color: #181818;
+}
+.serviceText p{
+ font-size: 16px;
+ font-weight: 400;
+ color: rgba(24, 24, 24, 0.702);
+ padding: 60px 0;
+}
+.serviceFlex{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap:83px ;
+ 
+}
+
+.boxOne{
+  width: 370px;
+  border: 1px solid #E3E3E3;
+  padding: 62px 45px;
+}
+.boxOne:hover{
+ 
+  border: 1px solid #e3e3e314;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  
+}
+
+.boxOne h3{
+ font-size: 25px;
+ font-weight: 700;
+ color: #181818;
+ padding: 35px 0;
+}
+.boxOne p{
+ font-size: 16px;
+ font-weight: 400;
+ color: rgba(24, 24, 24, 0.702);
+
+}
+
+/* *End servicePart */
